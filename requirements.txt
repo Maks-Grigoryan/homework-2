@@ -1,0 +1,7 @@
+langgraph>=1.2
+transformers>=5.0
+accelerate>=1.12
+torch>=2.5
+numpy>=2.0
+matplotlib>=3.9
+imageio-ffmpeg>=0.6
