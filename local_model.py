@@ -14,7 +14,7 @@ class LocalInstructionModel:
         self.model = AutoModelForCausalLM.from_pretrained(
             model_id,
             cache_dir=cache_dir,
-            torch_dtype=torch.float32,
+            dtype=torch.float32,
             low_cpu_mem_usage=True,
         ).eval()
 
